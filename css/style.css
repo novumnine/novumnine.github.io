@@ -1,1 +1,9 @@
-
+.sidepage{
+  height: 75%;
+  width: 20%;
+  position: fixed;
+  overflow-x: hidden;
+  top: 2vh;
+  left 4vw;
+  background-color: blue;
+}
