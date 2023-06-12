@@ -1,9 +1,9 @@
 .sidepage{
-  height: 75%;
-  width: 20%;
+  height: 50%;
+  width: 15%;
   position: fixed;
   overflow-x: hidden;
-  top: 12.5%;
+  top: 25%;
   left: 50%;
   background-color: blue;
 
