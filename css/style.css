@@ -4,7 +4,13 @@
   position: fixed;
   overflow-x: hidden;
   top: 12.5%;
-  right: 20%;
+  right: 50%;
   background-color: blue;
 
+}
+
+.sidebuttons{
+	width:18%;
+    position:fixed;
+    
 }
