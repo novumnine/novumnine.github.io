@@ -1,16 +1,28 @@
-.sidepage{
-  height: 75%;
-  width: 15%;
-  position: fixed;
-  overflow-x: hidden;
-  top: 12.5%;
-  right: 60%;
-  background-color: blue;
+    .sidepage {
+        height: 50%;
+        width: 15%;
+        position: fixed;
+        overflow-x: hidden;
+        top: 25%;
+        right: 60%;
+        background-color: blue;
 
-}
+    }
 
-.sidebuttons{
-	width:18%;
-    position:fixed;
-    
-}
+    .sidebuttons {
+        width: 14%;
+        position: fixed;
+        margin-left: 0.5%;
+        display: block;
+        font-size: 1.2vw;
+
+    }
+
+    .mainblock {
+        top: 25%;
+        height: 50%;
+        display: block;
+        position: fixed;
+        width: 40%;
+        right: 19%;
+    }
