@@ -22,6 +22,7 @@
         top: 25%;
         height: 50%;
         display: block;
+        position:absolute;
         width: 40%;
-        right: 40%;
+        left: 60%;
     }
