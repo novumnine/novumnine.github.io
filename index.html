@@ -2,6 +2,11 @@
   <head>
     <link rel="stylesheet" href="css/style.css">
   </head>
+  <script>
+    function ChangeIFrame(change) {
+      document.getElementById('webpage').src = change;
+    }
+  </script>
   <body>
 
     <div class="sidepage">
@@ -9,7 +14,7 @@
         <button class="sidebuttons">Home</button>
         <br>
         <div style="margin-top:1vh; margin-bottom:1vh;">
-            <button class="sidebuttons">Biography</button>
+            <button onclick="ChangeIFrame('https://novumnine.github.io/continued')" class="sidebuttons">Biography</button>
         </div>
         <br>
         <div style="margin-top:1vh; margin-bottom:2vh;">
@@ -20,7 +25,7 @@
         <p style="font-size:1vw;text-align:justify;margin-left:1vw;margin-right:1vw;position:absolute;bottom:0px;">An INDEPENDENT, SELECTIVE, && MUTUALLY EXCLUSIVE portrayal of Johnny Truant of House of Leaves, portrayed by COBALT / TRUANT ( he / him, 18+ )</p>
     </div>
 
-    <iframe class="mainblock" src="https://novumnine.github.io/continued"></iframe>
+    <iframe id="webpage" class="mainblock" src="https://novumnine.github.io/continued"></iframe>
 
 </body>
 </html>
