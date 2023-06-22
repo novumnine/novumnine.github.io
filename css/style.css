@@ -20,9 +20,10 @@
 
     .mainblock {
         top: 25%;
+        left: 50%;
         height: 50%;
         display: block;
-        position:relative;
+        position:absolute;
         width: 40%;
-        left: 60%;
+        margin: 0 auto;
     }
