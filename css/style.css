@@ -2,6 +2,7 @@
         height: 50%;
         width: 15%;
         left: 50%;
+        margin: 0 auto;
         position: absolute;
         overflow-x: hidden;
         top: 25%;
@@ -22,7 +23,8 @@
         top: 25%;
         left: 70%;
         height: 50%;
-        display: block;
+        margin: 0 auto;
         position:absolute;
+        display: block;
         width: 40%;
     }
