@@ -1,10 +1,10 @@
     .sidepage {
-        height: 50%;
+        height: 75%;
         width: 15%;
         left: 36%;
         position: absolute;
         overflow-x: hidden;
-        top: 25%;
+        top: 12.5%;
         background-color: blue;
 
     }
@@ -19,9 +19,9 @@
     }
 
     .mainblock {
-        top: 25%;
+        top: 12.5%;
         left: 52%;
-        height: 50%;
+        height: 75%;
         margin: 0 auto;
         position:absolute;
         display: block;
